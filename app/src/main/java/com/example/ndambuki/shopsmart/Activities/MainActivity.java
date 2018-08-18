@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         //databaseHelper.deleteAll();
 
-        //methods.clearPrefs();
+        methods.clearPrefs();
 
         try {
 
