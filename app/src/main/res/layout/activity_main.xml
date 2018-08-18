@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/blueish"
+    tools:context="com.example.ndambuki.shopsmart.Activities.BarcodeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:paddingLeft="10dp"
+        android:text="Shopping Tracker"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="296dp"
+        android:layout_height="186dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_weight="1"
+        android:src="@drawable/icon3" />
+
+
+    <Button
+        android:id="@+id/btnScanner"
+        android:layout_width="155dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:text="BARCODE SCANNER" />
+
+
+    <Button
+        android:id="@+id/btnShoplist"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:text="SHOPPING LIST" />
+
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="182dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:text="CALCULATOR" />
+
+</RelativeLayout>
